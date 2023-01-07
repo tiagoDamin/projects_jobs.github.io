@@ -69,7 +69,7 @@ fetch(url)
         list.appendChild(li);
     })
     .catch(() => {
-        msg.textContent = "Por favor digite uma cidade válida!"
+        msg.textContent = "Por favor digite um nome de cidade válido!"
     });
 
     msg.textContent = "";
