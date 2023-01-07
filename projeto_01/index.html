@@ -1,1 +1,37 @@
-<h1>Ola</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo App</title>
+    <link rel="shortcut icon" href="img/weather.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- <div class="api">  
+        <div class="container">🌞 Esta demo necesita uma Key no OpenWeather API. <a target="_blank" href="https://home.openweathermap.org/users/sign_up">Pegue sua chave Key gratuita aqui</a>            
+        </div>             
+    </div> -->
+    <section class="top-banner">
+        <h1 class="heading">Previsão do Tempo Simples</h1>
+        <form>
+            <input type="text" placeholder="Digite a sua cidade..." autofocus>
+            <button type="submit">Procurar</button>
+            <span class="msg"></span>
+        </form>
+    </section>
+    <section class="ajax-section">
+        <div class="container">
+            <ul class="cities"></ul>
+        </div>
+    </section>
+    <section class="page-footer">
+        <div class="container">
+            <small>Projeto feito por <span>Tiago Damin Bis</span></small>
+        </div>
+    </section>
+    <script src="scripts.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>    
+</body>
+</html>
