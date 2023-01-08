@@ -193,6 +193,19 @@ body {
     color: var(--red);
 }
 
+.container a {
+    border: 2px solid var(--darkred);
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+.container a:hover {
+    border: #fff;
+    color: var(--darkred);
+}
+
+
+
 /* Media query */
 @media screen and (max-width: 1000px) {
     body {
