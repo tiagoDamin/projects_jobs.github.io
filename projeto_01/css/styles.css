@@ -275,4 +275,15 @@ body {
         display: flex;
         margin-left: 10px;
     }
+
+    .page-footer a {
+        display: block;
+        width: 25%;
+        margin: auto;
+        margin-top: 20px;
+        padding: 10px 10px;
+        text-align: center;
+    }
+
+    
 }
