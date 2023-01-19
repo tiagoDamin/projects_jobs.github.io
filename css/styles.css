@@ -32,11 +32,7 @@ nav .title {
 nav .close {
   padding: 15px 0;
   font-size: 2rem;
-}
- .link {
-  color: red;
-  font-weight: bold;
- }
+} 
 
 
  .link:hover {
@@ -117,7 +113,7 @@ div p {
   .project {
     display: flex;
     position: relative;
-    color: red;
+    color: #ccc;
     justify-content: center;
     font-size: 1rem;
     padding: 10px;
@@ -138,7 +134,24 @@ div p {
           background-size: 10px;
           background-position: 10px 50%;
         }
-      }
+
+        .carousel-item img {
+          display: flex;
+          margin-left: -2.5vh;
+        }
+
+        .carousel-item p {
+          display: flex;
+          font-size: 0.7rem;
+          justify-content: center;
+        }
+
+        .carousel-item .project {
+          padding: 5px 20px;
+          color: #000;
+          margin-top: 10px;
+        }
+  }
   
   
   /*Select every element*/
