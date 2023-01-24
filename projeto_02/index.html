@@ -4,40 +4,129 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Experiências</title>
+    <title>F.A.Q</title>
+    <!-- Fon awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
-    <link rel="shortcut icon" href="img/comment.svg" type="image/x-icon">
+    <!-- Other font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="img/question.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body>   
     <main>
-        <section class="container">
-            <a id="close-btn" href="../javascript.html">X</a>
+        <section class="questions">
+            <div class="voltar">
+                <a href="../javascript.html">X</a>
+            </div>            
             <div class="title">
-                <h2>Nossas Experiências</h2>
-                <div class="underline"></div>
+                <h2>Principais dúvidas</h2>
             </div>
-            <article class="review">
-                <div class="img-container">
-                    <img id="person-img" src="img/tiago.png" alt="">
-                </div>
-                <h4 id="author">Tiago Damin</h4>
-                <p id="job">Estudante de programação</p>
-                <p id="info">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Non omnis veritatis nostrum a tempore quis aspernatur laborum aliquam nihil illum, in officia debitis consequatur atque est totam maiores vero facere.
-                </p>
-                <div class="button-container">
-                    <button class="prev-btn">
-                        <i class="fas fa-chevron-left"></i>
-                    </button>
-                    <button class="next-btn">
-                        <i class="fas fa-chevron-right"></i>
-                    </button>
-                </div>
-                <button class="random-btn">Me supreenda</button>
-            </article>
-        </section>
+            <div class="section-center">
+                <article class="question">
+                    <div class="question-title">
+                        <p>Qual é a duração do curso de inglês?</p>
+                        <button type="button" class="question-btn">
+                            <span class="plus-icon">
+                                <i class="far fa-plus-square"></i>
+                            </span>
+                            <span class="minus-icon">
+                                <i class="far fa-minus-square"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="question-text">
+                        <p>
+                            O curso tem um programação de atividades de dois anos. Os alunos que 
+                            possuem mais tempo disponível podem terminar mais 
+                            rápido.</p>
+                    </div>
+                </article>
+                <!-- New  question -->
+                <article class="question">
+                    <div class="question-title">
+                        <p>Eu vou ficar fluente?</p>
+                        <button type="button" class="question-btn">
+                            <span class="plus-icon">
+                                <i class="far fa-plus-square"></i>
+                            </span>
+                            <span class="minus-icon">
+                                <i class="far fa-minus-square"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="question-text">
+                        <p>
+                           É perfeitamente possível se o aluno tiver tempo para dedicar-se as atividades 
+                           disponíveis e eventos de conversação.   
+                        </p>
+                    </div>
+                </article>
+                <article class="question">
+                    <div class="question-title">
+                        <p>As aulas de conversão são sempre no mesmo horário?</p>
+                        <button type="button" class="question-btn">
+                            <span class="plus-icon">
+                                <i class="far fa-plus-square"></i>
+                            </span>
+                            <span class="minus-icon">
+                                <i class="far fa-minus-square"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="question-text">
+                        <p>
+                           As aula em grupo de conversação acontecem várias 
+                           vezes por semanas e os horários foram definidos com o 
+                           intuito de ajudar e permitir aos alunos a participação 
+                           conforme sua disponibilidade.</p>
+                    </div>
+                </article>
+                <article class="question">
+                    <div class="question-title">
+                        <p>Posso cancelar minha assinatura e pedir reembolso?</p>
+                        <button type="button" class="question-btn">
+                            <span class="plus-icon">
+                                <i class="far fa-plus-square"></i>
+                            </span>
+                            <span class="minus-icon">
+                                <i class="far fa-minus-square"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="question-text">
+                        <p>
+                           Sim, você é livre para solicitar cancelamento e o reembolso sempre 
+                           quando sentir ou decidir que nossos serviço não atendeu suas 
+                           expectativas. Você deve estar ciente que o tempo que  você usufruiu do 
+                           serviço não será resarcido e há uma taxa de 15% do valor restante pela 
+                           desistência.</p>
+                    </div>
+                </article>
+                <article class="question">
+                    <div class="question-title">
+                        <p>Posso fazer a aula conversação junto com meu namorado(a)?</p>
+                        <button class="question-btn">
+                            <span class="plus-icon">
+                                <i class="far fa-plus-square"></i>
+                            </span>
+                            <span class="minus-icon">
+                                <i class="far fa-minus-square"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="question-text">
+                        <p>
+                           Sim, não existe nenhum proibição ou restrição quanto a 
+                           participação. No entanto só possivel acessar as aulas 
+                           em um dispositivo de cada vez.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>        
     </main>
     <!-- javascript -->
     <script src="scripts.js"></script>
