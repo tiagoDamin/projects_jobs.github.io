@@ -139,7 +139,7 @@ const menu = [
     {
         id: 18,
         title: 'musse',
-        category: 'sobremesa',
+        category: 'almoço',
         price: 2,
         img: './img/musse.jpg',
         desc: `Uma porção deliciosa de musse para comer depois do almoço.`
@@ -147,7 +147,7 @@ const menu = [
     {
         id: 19,
         title: 'gelatina',
-        category: 'sobremesa',
+        category: 'almoço',
         price: 1,
         img: './img/gelatina.jpg',
         desc: `Uma porção gosotosa e saudável para comer depois da sua refeição.`
@@ -155,7 +155,7 @@ const menu = [
     {
         id: 20,
         title: 'torta',
-        category: 'sobremesa',
+        category: 'almoço',
         price: 3,
         img: './img/torta.jpg',
         desc: `Uma porção deliciosa da nossa receita exclusiva de torta .`
